@@ -1,0 +1,21 @@
+.questions-page .p {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+    color: rgb(132, 102, 102);
+}
+
+.question-container{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}

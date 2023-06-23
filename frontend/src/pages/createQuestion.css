@@ -1,0 +1,33 @@
+.form-container{
+    margin-top: 50px;
+}
+
+
+.field {
+    margin: 10px;
+}
+
+label {
+    margin-right: 10px;
+    display: block;
+}
+
+input{
+    width: 200px;
+    height: 20px;
+}
+
+.field-answer{
+    display: flex;
+}
+
+
+.answer {
+    display: flex;
+}
+
+.answer input {
+    width: 15px;
+}
+
+

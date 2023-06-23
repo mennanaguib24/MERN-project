@@ -1,0 +1,35 @@
+.update-question,
+.update-answer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.update-question-form,
+.update-answer-form{
+    width: 700px;
+    background-color: aliceblue;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    height: 400px;
+}
+
+
+.update-question-form-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+}

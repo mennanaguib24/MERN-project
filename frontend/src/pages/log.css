@@ -1,0 +1,89 @@
+.form-container {
+    width: 100%;
+    height: calc(100vh - 130px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 15px; */
+}
+
+.form-title {
+    font-size: 30px;
+    color: rgb(132, 102, 102);
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.form {
+    width: 500px;
+
+}
+
+.form-group{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-label {
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 500px;
+    color: rgb(132, 102, 102);
+}
+
+.form-group1 input{
+    width: 95%;
+}
+.form-group1 select{
+    width: 99%;
+    margin-bottom: 20px;
+    height: 45px;
+}
+
+.form-input {
+    /* width: 100%; */
+    border-radius: 10px;
+    border: 1px solid ;
+    padding: 10px; 
+}
+.form-btn {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(132, 102, 102);
+    ;
+    font-size: 21px;
+    font-weight: 500;
+    color: var(--white-color);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.form-footer{
+    margin: 10px 0;
+    font-size: 17px;
+    color: var(--dark-color);
+}
+
+
+.profile-btn{
+    width: 200px;
+}
+
+
+.header-right-username {
+    font-size: xx-large;
+    display: block;
+    margin-right: 30px;
+}
+
+@media (max-width: 990px){
+    .form {
+        width: 100%;
+    }
+}
